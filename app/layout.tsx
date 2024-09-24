@@ -15,19 +15,21 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="pt">
+    <html lang="pt-br">
       <body className={nunitoSans.className}>
         
         <main className= "bg-gray-100 min-h-screen flex flex-col items-center">        
         
-        <nav className="w-full bg-white h-16 flex items-center justify-center">
+        <nav className="w-full bg-white h-22 flex items-center justify-center">
           
           <section className='container flex items-center gap-3'>
           
           <Image width={48} height={48} src="/globoazul.jpg" alt= "logo Aplicação"/>
-            
+            <div className='flex flex-col p-4 font-bold mt-5'>
             <h1 className='font-bold text-2xl'>Lista de Países</h1>
-          
+          <p>Aqui você tem a lista com todos os países do mundo!</p>
+            <p>Clique na bandeira do país que deseja para saber mais sobre ele!</p>
+            </div>
           </section>
         </nav>
         

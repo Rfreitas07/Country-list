@@ -46,7 +46,7 @@ export default async function CountryPage({
       <h1 className="text-5xl text-center font-bold text-gray-800 my-16">
         {country.translations.por.common}
       </h1>
-      <Link className="flex items-center py-2" href="/">
+      <Link className="flex items-center py-2 text-green-800 font-bold" href="/">
         <Image
           src="/arrow-back.svg"
           alt="Ícone de seta de voltar"
